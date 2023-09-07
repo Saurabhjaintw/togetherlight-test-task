@@ -1,24 +1,17 @@
 import {StyleSheet} from 'react-native';
+import {moderateScale} from '../../utils/deviceDimensions';
+import {BLACK, GREY} from '../../utils/color';
 
 export const styles = StyleSheet.create({
-  button: {
-    backgroundColor: 'black',
-    margin: 12,
+  button: disabled => ({
+    backgroundColor: !disabled ? BLACK : GREY,
+    margin: moderateScale(12),
     borderRadius: 12,
     alignItems: 'center',
     justifyContent: 'center',
-    height: 48,
-    marginHorizontal: 16,
-  },
-  disabledButton: {
-    backgroundColor: 'grey',
-    margin: 12,
-    borderRadius: 12,
-    alignItems: 'center',
-    justifyContent: 'center',
-    height: 48,
-    marginHorizontal: 16,
-  },
+    height: moderateScale(48),
+    marginHorizontal: moderateScale(16),
+  }),
   text: {
     color: 'white',
     fontWeight: '500',

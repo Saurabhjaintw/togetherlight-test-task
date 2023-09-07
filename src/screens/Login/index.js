@@ -4,7 +4,7 @@ import {styles} from './styles';
 import InputComponent from '../../components/inputComponent';
 import ButtonComponent from '../../components/buttonComponent';
 
-const LoginScreen = () => {
+const LoginScreen = ({navigation}) => {
   const [userName, setUserName] = useState('');
   const [password, setPassword] = useState('');
 
@@ -16,7 +16,7 @@ const LoginScreen = () => {
       Alert.alert('Login Successful', 'Go to Dashboard', [
         {
           text: 'Ok',
-          onPress: () => null,
+          onPress: () => navigation.navigate('Dashboard'),
         },
       ]);
     } else {

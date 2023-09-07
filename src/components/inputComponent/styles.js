@@ -1,30 +1,31 @@
 import {StyleSheet} from 'react-native';
+import {moderateScale} from '../../utils/deviceDimensions';
+import {RED} from '../../utils/color';
 export const styles = StyleSheet.create({
   container: {
-    paddingHorizontal: 5,
+    paddingHorizontal: moderateScale(5),
     width: '100%',
   },
   input: {
-    paddingHorizontal: 24,
-    height: 50,
+    paddingHorizontal: moderateScale(24),
+    height: moderateScale(50),
     borderWidth: 1,
-    borderRadius: 12,
-    paddingVertical: 15,
+    borderRadius: moderateScale(12),
+    paddingVertical: moderateScale(15),
     fontWeight: '500',
-    marginHorizontal: 16,
+    marginHorizontal: moderateScale(16),
   },
   label: {
     fontWeight: '500',
-    fontSize: 14,
-    marginHorizontal: 16,
-
-    marginVertical: 6,
+    fontSize: moderateScale(14),
+    marginHorizontal: moderateScale(16),
+    marginVertical: moderateScale(6),
   },
   error_text: {
-    marginTop: 5,
-    color: 'red',
-    fontSize: 14,
+    marginTop: moderateScale(5),
+    color: RED,
+    fontSize: moderateScale(14),
     fontWeight: 500,
-    marginHorizontal: 20,
+    marginHorizontal: moderateScale(20),
   },
 });

@@ -28,7 +28,7 @@
   resolved "https://registry.npmjs.org/@babel/compat-data/-/compat-data-7.22.9.tgz"
   integrity sha512-5UamI7xkUcJ3i9qVDS+KFDEK8/7oJ55/sJMB1Ge7IEapr7KfdfV/HErR+koZwOfd+SgtFKOKRhRakdg++DcJpQ==
 
-"@babel/core@^7.0.0", "@babel/core@^7.0.0-0", "@babel/core@^7.0.0-0 || ^8.0.0-0 <8.0.0", "@babel/core@^7.11.0", "@babel/core@^7.11.6", "@babel/core@^7.12.0", "@babel/core@^7.12.3", "@babel/core@^7.13.0", "@babel/core@^7.13.16", "@babel/core@^7.20.0", "@babel/core@^7.4.0 || ^8.0.0-0 <8.0.0", "@babel/core@^7.8.0":
+"@babel/core@^7.0.0", "@babel/core@^7.0.0-0", "@babel/core@^7.0.0-0 || ^8.0.0-0 <8.0.0", "@babel/core@^7.11.0", "@babel/core@^7.11.6", "@babel/core@^7.12.0", "@babel/core@^7.12.3", "@babel/core@^7.13.0", "@babel/core@^7.13.16", "@babel/core@^7.20.0", "@babel/core@^7.22.15", "@babel/core@^7.4.0 || ^8.0.0-0 <8.0.0", "@babel/core@^7.8.0":
   version "7.22.15"
   resolved "https://registry.npmjs.org/@babel/core/-/core-7.22.15.tgz"
   integrity sha512-PtZqMmgRrvj8ruoEOIwVA3yoF91O+Hgw9o7DAUTNBA6Mo2jpu31clx9a7Nz/9JznqetTR6zwfC4L3LAjKQXUwA==
@@ -974,7 +974,7 @@
     "@babel/helper-create-regexp-features-plugin" "^7.22.5"
     "@babel/helper-plugin-utils" "^7.22.5"
 
-"@babel/preset-env@^7.1.6", "@babel/preset-env@^7.20.0":
+"@babel/preset-env@^7.1.6", "@babel/preset-env@^7.22.15":
   version "7.22.15"
   resolved "https://registry.npmjs.org/@babel/preset-env/-/preset-env-7.22.15.tgz"
   integrity sha512-tZFHr54GBkHk6hQuVA8w4Fmq+MSPsfvMG0vPnOYyTnJpyfMqybL8/MbNCPRT9zc2KBO2pe4tq15g6Uno4Jpoag==
@@ -2287,7 +2287,7 @@ babel-core@^7.0.0-bridge.0:
   resolved "https://registry.npmjs.org/babel-core/-/babel-core-7.0.0-bridge.0.tgz"
   integrity sha512-poPX9mZH/5CSanm50Q+1toVci6pv5KSRv/5TWCwtzQS5XEwn40BcCrgIeMFWP9CKKIniKXNxoIOnOq4VVlGXhg==
 
-babel-jest@^29.2.1, babel-jest@^29.6.4:
+babel-jest@^29.6.4:
   version "29.6.4"
   resolved "https://registry.npmjs.org/babel-jest/-/babel-jest-29.6.4.tgz"
   integrity sha512-meLj23UlSLddj6PC+YTOFRgDAtjnZom8w/ACsrx0gtPtv5cJZk0A5Unk5bV4wixD7XaPCN1fQvpww8czkZURmw==
@@ -4422,7 +4422,7 @@ jest-worker@^29.6.4:
     merge-stream "^2.0.0"
     supports-color "^8.0.0"
 
-jest@^29.2.1:
+jest@^29.6.4:
   version "29.6.4"
   resolved "https://registry.npmjs.org/jest/-/jest-29.6.4.tgz"
   integrity sha512-tEFhVQFF/bzoYV1YuGyzLPZ6vlPrdfvDmmAxudA1dLEuiztqg2Rkx20vkKY32xiDROcD2KXlgZ7Cu8RPeEHRKw==
@@ -5880,7 +5880,7 @@ react-shallow-renderer@^16.15.0:
     object-assign "^4.1.1"
     react-is "^16.12.0 || ^17.0.0 || ^18.0.0"
 
-react-test-renderer@18.2.0:
+react-test-renderer@^18.2.0:
   version "18.2.0"
   resolved "https://registry.npmjs.org/react-test-renderer/-/react-test-renderer-18.2.0.tgz"
   integrity sha512-JWD+aQ0lh2gvh4NM3bBM42Kx+XybOxCpgYK7F8ugAlpaTSnWsX+39Z4XkOykGZAHrjwwTZT3x3KxswVWxHPUqA==
